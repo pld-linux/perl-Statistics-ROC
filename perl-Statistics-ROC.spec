@@ -16,8 +16,6 @@ BuildRequires:	perl-GIFgraph
 BuildRequires:	perl-Tk
 BuildRequires:	perl-Tk-FileDialog
 BuildRequires:	perl-Tk-WaitBox
-%requires_eq	perl
-Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
