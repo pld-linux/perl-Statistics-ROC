@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Statistics::ROC
 Summary(zh_CN):	Statistics::ROC Perl дё©И
 Name:		perl-Statistics-ROC
 Version:	0.02
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
