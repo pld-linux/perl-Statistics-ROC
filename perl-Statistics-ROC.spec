@@ -11,6 +11,10 @@ Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Statistics/Statistics-ROC
 Patch:		perl-Statistics-ROC-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
+BuildRequires:	perl-GIFgraph
+BuildRequires:	perl-Tk
+BuildRequires:	perl-Tk-FileDialog
+BuildRequires:	perl-Tk-WaitBox
 %requires_eq	perl
 Requires:	%{perl_sitearch}
 BuildRoot:	/tmp/%{name}-%{version}-root
