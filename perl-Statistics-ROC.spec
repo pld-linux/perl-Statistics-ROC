@@ -4,12 +4,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Statistics
 %define		pnam	ROC
-Summary:	Receiver-operator-characteristic (ROC) curves with nonparametric confidence bounds
-Summary(pl):	Krzywe ROC z nieparametrycznymi przedzia³ami ufno¶ci
+Summary:	Statistics::ROC - receiver-operator-characteristic (ROC) curves with nonparametric confidence bounds
+Summary(pl):	Statistics::ROC - krzywe ROC z nieparametrycznymi przedzia³ami ufno¶ci
 Name:		perl-Statistics-ROC
 Version:	0.02
 Release:	11
-License:	GPL
+# same as perl
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	507505d7aef9988fd550f36846f34f84
