@@ -17,7 +17,7 @@ BuildRequires:	perl-Tk-FileDialog
 BuildRequires:	perl-Tk-WaitBox
 %requires_eq	perl
 Requires:	%{perl_sitearch}
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Statistics-ROC perl module. 
