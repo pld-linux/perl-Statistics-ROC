@@ -11,7 +11,7 @@ Name:		perl-Statistics-ROC
 Version:	0.02
 Release:	11
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	507505d7aef9988fd550f36846f34f84
