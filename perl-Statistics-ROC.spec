@@ -4,11 +4,11 @@ Summary(pl):	Modu³ perla Statistics-ROC
 Name:		perl-Statistics-ROC
 Version:	0.01
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Statistics/Statistics-ROC-%{version}.tar.gz
-Patch:		perl-Statistics-ROC-paths.patch
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Statistics/Statistics-ROC-%{version}.tar.gz
+Patch0:		perl-Statistics-ROC-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 BuildRequires:	perl-GIFgraph
@@ -20,7 +20,7 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Statistics-ROC perl module. 
+Statistics-ROC perl module.
 
 %description -l pl
 Modu³ perla Statistics-ROC.
