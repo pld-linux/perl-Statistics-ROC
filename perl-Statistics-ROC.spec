@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Statistics
 %define	pnam	ROC
-Summary:	Statistics-ROC perl module
-Summary(pl):	Modu³ perla Statistics-ROC
+Summary:	Statistics::ROC perl module
+Summary(pl):	Modu³ perla Statistics::ROC
 Name:		perl-Statistics-ROC
 Version:	0.02
 Release:	6
@@ -19,10 +19,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Statistics-ROC perl module.
+Statistics::ROC perl module.
 
 %description -l pl
-Modu³ perla Statistics-ROC.
+Modu³ perla Statistics::ROC.
 
 %prep
 %setup -q -c -n %{pdir}-%{pnam}-%{version}
