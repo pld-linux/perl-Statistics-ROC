@@ -19,7 +19,7 @@ BuildRequires:	perl-Tk
 BuildRequires:	perl-Tk-FileDialog
 BuildRequires:	perl-Tk-WaitBox
 %endif
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
