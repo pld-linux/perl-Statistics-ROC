@@ -3,7 +3,7 @@ Summary:	Statistics-ROC perl module
 Summary(pl):	Modu³ perla Statistics-ROC
 Name:		perl-Statistics-ROC
 Version:	0.02
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
