@@ -4,23 +4,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Statistics
 %define		pnam	ROC
-Summary:	Statistics::ROC Perl module
-Summary(cs):	Modul Statistics::ROC pro Perl
-Summary(da):	Perlmodul Statistics::ROC
-Summary(de):	Statistics::ROC Perl Modul
-Summary(es):	Módulo de Perl Statistics::ROC
-Summary(fr):	Module Perl Statistics::ROC
-Summary(it):	Modulo di Perl Statistics::ROC
-Summary(ja):	Statistics::ROC Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Statistics::ROC ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Statistics::ROC
-Summary(pl):	Modu³ perla Statistics::ROC
-Summary(pt_BR):	Módulo Perl Statistics::ROC
-Summary(pt):	Módulo de Perl Statistics::ROC
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Statistics::ROC
-Summary(sv):	Statistics::ROC Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Statistics::ROC
-Summary(zh_CN):	Statistics::ROC Perl Ä£¿é
+Summary:	Receiver-operator-characteristic (ROC) curves with nonparametric confidence bounds
 Name:		perl-Statistics-ROC
 Version:	0.02
 Release:	8
@@ -39,55 +23,13 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Statistics::ROC perl module.
-
-%description -l cs
-Modul Statistics::ROC pro Perl.
-
-%description -l da
-Perlmodul Statistics::ROC.
-
-%description -l de
-Statistics::ROC Perl Modul.
-
-%description -l es
-Módulo de Perl Statistics::ROC.
-
-%description -l fr
-Module Perl Statistics::ROC.
-
-%description -l it
-Modulo di Perl Statistics::ROC.
-
-%description -l ja
-Statistics::ROC Perl ¥â¥¸¥å¡¼¥ë
-
-%description -l ko
-Statistics::ROC ÆÞ ¸ðÁÙ.
-
-%description -l no
-Perlmodul Statistics::ROC.
-
-%description -l pl
-Modu³ perla Statistics::ROC.
-
-%description -l pt
-Módulo de Perl Statistics::ROC.
-
-%description -l pt_BR
-Módulo Perl Statistics::ROC.
-
-%description -l ru
-íÏÄÕÌØ ÄÌÑ Perl Statistics::ROC.
-
-%description -l sv
-Statistics::ROC Perlmodul.
-
-%description -l uk
-íÏÄÕÌØ ÄÌÑ Perl Statistics::ROC.
-
-%description -l zh_CN
-Statistics::ROC Perl Ä£¿é
+This program determines the ROC curve and its nonparametric confidence
+bounds for data categorized into two groups.  A ROC curve shows the
+relationship of B<probability of false alarm> (x-axis) to B<probability of
+detection> (y-axis) for a certain test.  Expressed in medical terms: the
+B<probability of a positive test, given no disease> to the B<probability
+of a positive test, given disease>.  The ROC curve may be used to
+determine an I<optimal> cutoff point for the test.
 
 %prep
 %setup -q -c -n %{pdir}-%{pnam}-%{version}
