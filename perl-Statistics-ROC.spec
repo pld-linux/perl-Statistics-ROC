@@ -7,7 +7,7 @@
 Summary:	Receiver-operator-characteristic (ROC) curves with nonparametric confidence bounds
 Name:		perl-Statistics-ROC
 Version:	0.02
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
