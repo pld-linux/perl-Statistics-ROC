@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Statistics
-%define	pnam	ROC
+%define		pdir	Statistics
+%define		pnam	ROC
 Summary:	Statistics::ROC - receiver-operator-characteristic (ROC) curves with nonparametric confidence bounds
 Summary(pl):	Statistics::ROC - krzywe ROC z nieparametrycznymi przedzia³ami ufno¶ci
 Name:		perl-Statistics-ROC
