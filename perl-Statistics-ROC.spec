@@ -8,7 +8,7 @@ Summary:	Receiver-operator-characteristic (ROC) curves with nonparametric confid
 Summary(pl):	Krzywe ROC z nieparametrycznymi przedzia³ami ufno¶ci
 Name:		perl-Statistics-ROC
 Version:	0.02
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
