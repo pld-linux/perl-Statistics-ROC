@@ -3,7 +3,7 @@ Summary:	Statistics-ROC perl module
 Summary(pl):	Modu³ perla Statistics-ROC
 Name:		perl-Statistics-ROC
 Version:	0.02
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -15,6 +15,7 @@ BuildRequires:	perl-GIFgraph
 BuildRequires:	perl-Tk
 BuildRequires:	perl-Tk-FileDialog
 BuildRequires:	perl-Tk-WaitBox
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
