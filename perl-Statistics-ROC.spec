@@ -9,7 +9,7 @@ Summary:	Statistics::ROC - receiver-operator-characteristic (ROC) curves with no
 Summary(pl):	Statistics::ROC - krzywe ROC z nieparametrycznymi przedzia³ami ufno¶ci
 Name:		perl-Statistics-ROC
 Version:	0.02
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
