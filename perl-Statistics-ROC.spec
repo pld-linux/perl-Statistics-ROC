@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Statistics
 %define	pnam	ROC
-%include	/usr/lib/rpm/macros.perl
 Summary:	Statistics-ROC perl module
 Summary(pl):	Modu³ perla Statistics-ROC
 Name:		perl-Statistics-ROC
 Version:	0.02
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -26,7 +25,7 @@ Statistics-ROC perl module.
 Modu³ perla Statistics-ROC.
 
 %prep
-%setup -q -c -n Statistics-ROC-%{version}
+%setup -q -c -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
