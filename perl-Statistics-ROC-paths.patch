@@ -1,0 +1,8 @@
+--- roc_ui.pl~	Wed Jul 22 14:37:59 1998
++++ roc_ui.pl	Mon Oct 18 20:18:15 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl  -w
++#!/usr/bin/perl  -w
+ #LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+ #
+ #    Graphical User Interface for drawing and printing
