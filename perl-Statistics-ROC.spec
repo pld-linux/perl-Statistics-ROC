@@ -1,8 +1,23 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Statistics
-%define	pnam	ROC
-Summary:	Statistics::ROC perl module
+%define		pdir	Statistics
+%define		pnam	ROC
+Summary:	Statistics::ROC Perl module
+Summary(cs):	Modul Statistics::ROC pro Perl
+Summary(da):	Perlmodul Statistics::ROC
+Summary(de):	Statistics::ROC Perl Modul
+Summary(es):	Módulo de Perl Statistics::ROC
+Summary(fr):	Module Perl Statistics::ROC
+Summary(it):	Modulo di Perl Statistics::ROC
+Summary(ja):	Statistics::ROC Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Statistics::ROC ÆŞ ¸ğÁÙ
+Summary(no):	Perlmodul Statistics::ROC
 Summary(pl):	Modu³ perla Statistics::ROC
+Summary(pt_BR):	Módulo Perl Statistics::ROC
+Summary(pt):	Módulo de Perl Statistics::ROC
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Statistics::ROC
+Summary(sv):	Statistics::ROC Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Statistics::ROC
+Summary(zh_CN):	Statistics::ROC Perl Ä£¿é
 Name:		perl-Statistics-ROC
 Version:	0.02
 Release:	7
@@ -21,8 +36,53 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Statistics::ROC perl module.
 
+%description -l cs
+Modul Statistics::ROC pro Perl.
+
+%description -l da
+Perlmodul Statistics::ROC.
+
+%description -l de
+Statistics::ROC Perl Modul.
+
+%description -l es
+Módulo de Perl Statistics::ROC.
+
+%description -l fr
+Module Perl Statistics::ROC.
+
+%description -l it
+Modulo di Perl Statistics::ROC.
+
+%description -l ja
+Statistics::ROC Perl ¥â¥¸¥å¡¼¥ë
+
+%description -l ko
+Statistics::ROC ÆŞ ¸ğÁÙ.
+
+%description -l no
+Perlmodul Statistics::ROC.
+
 %description -l pl
 Modu³ perla Statistics::ROC.
+
+%description -l pt
+Módulo de Perl Statistics::ROC.
+
+%description -l pt_BR
+Módulo Perl Statistics::ROC.
+
+%description -l ru
+íÏÄÕÌØ ÄÌÑ Perl Statistics::ROC.
+
+%description -l sv
+Statistics::ROC Perlmodul.
+
+%description -l uk
+íÏÄÕÌØ ÄÌÑ Perl Statistics::ROC.
+
+%description -l zh_CN
+Statistics::ROC Perl Ä£¿é
 
 %prep
 %setup -q -c -n %{pdir}-%{pnam}-%{version}
