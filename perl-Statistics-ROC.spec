@@ -6,7 +6,7 @@
 %define		pdir	Statistics
 %define		pnam	ROC
 Summary:	Statistics::ROC - receiver-operator-characteristic (ROC) curves with nonparametric confidence bounds
-Summary(pl):	Statistics::ROC - krzywe ROC z nieparametrycznymi przedzia≥ami ufno∂ci
+Summary(pl.UTF-8):   Statistics::ROC - krzywe ROC z nieparametrycznymi przedzia≈Çami ufno≈õci
 Name:		perl-Statistics-ROC
 Version:	0.02
 Release:	12
@@ -35,14 +35,14 @@ the probability of a positive test, given no disease to the
 probability of a positive test, given disease.  The ROC curve may be
 used to determine an optimal cutoff point for the test.
 
-%description -l pl
-Ten program okre∂la krzyw± ROC i jej nieparametryczne przedzia≥y
-ufno∂ci dla danych podzielonych na dwie grupy. Krzywa ROC pokazuje
-zaleøno∂Ê prawdopodobieÒstwa fa≥szywego alarmu (o∂ x) od
-prawdopodobieÒstwa wykrycia (o∂ y) dla konkretnego testu (w
-terminologii medycznej: prawdopodobieÒstwo pozytywnego testu przy
-braku choroby od prawdopodobieÒstwa pozytywnego testu przy chorobie).
-Krzywa ROC moøe byÊ uøywana do okre∂lenia optymalnego punktu
+%description -l pl.UTF-8
+Ten program okre≈õla krzywƒÖ ROC i jej nieparametryczne przedzia≈Çy
+ufno≈õci dla danych podzielonych na dwie grupy. Krzywa ROC pokazuje
+zale≈ºno≈õƒá prawdopodobie≈Ñstwa fa≈Çszywego alarmu (o≈õ x) od
+prawdopodobie≈Ñstwa wykrycia (o≈õ y) dla konkretnego testu (w
+terminologii medycznej: prawdopodobie≈Ñstwo pozytywnego testu przy
+braku choroby od prawdopodobie≈Ñstwa pozytywnego testu przy chorobie).
+Krzywa ROC mo≈ºe byƒá u≈ºywana do okre≈õlenia optymalnego punktu
 granicznego dla testu.
 
 %prep
