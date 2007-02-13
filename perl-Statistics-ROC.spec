@@ -6,7 +6,7 @@
 %define		pdir	Statistics
 %define		pnam	ROC
 Summary:	Statistics::ROC - receiver-operator-characteristic (ROC) curves with nonparametric confidence bounds
-Summary(pl.UTF-8):   Statistics::ROC - krzywe ROC z nieparametrycznymi przedziałami ufności
+Summary(pl.UTF-8):	Statistics::ROC - krzywe ROC z nieparametrycznymi przedziałami ufności
 Name:		perl-Statistics-ROC
 Version:	0.02
 Release:	12
