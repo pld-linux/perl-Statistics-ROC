@@ -8,21 +8,21 @@
 Summary:	Statistics::ROC - receiver-operator-characteristic (ROC) curves with nonparametric confidence bounds
 Summary(pl.UTF-8):	Statistics::ROC - krzywe ROC z nieparametrycznymi przedziałami ufności
 Name:		perl-Statistics-ROC
-Version:	0.02
-Release:	12
+Version:	0.04
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	507505d7aef9988fd550f36846f34f84
+# Source0-md5:	92f9036e1dec5c41a9ccd008e484b1fc
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-GIFgraph
 BuildRequires:	perl-Tk
 BuildRequires:	perl-Tk-FileDialog
 BuildRequires:	perl-Tk-WaitBox
 %endif
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -46,7 +46,7 @@ Krzywa ROC może być używana do określenia optymalnego punktu
 granicznego dla testu.
 
 %prep
-%setup -q -c -n %{pdir}-%{pnam}-%{version}
+%setup -q -n %{pdir}-%{pnam}-0.01
 
 %build
 %{__perl} Makefile.PL \
