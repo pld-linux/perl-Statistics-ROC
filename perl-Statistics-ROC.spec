@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Statistics
 %define		pnam	ROC
+%include	/usr/lib/rpm/macros.perl
 Summary:	Statistics::ROC - receiver-operator-characteristic (ROC) curves with nonparametric confidence bounds
 Summary(pl.UTF-8):	Statistics::ROC - krzywe ROC z nieparametrycznymi przedziałami ufności
 Name:		perl-Statistics-ROC
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	92f9036e1dec5c41a9ccd008e484b1fc
+URL:		http://search.cpan.org/dist/Statistics-ROC/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -28,12 +29,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This program determines the ROC curve and its nonparametric confidence
-bounds for data categorized into two groups.  A ROC curve shows the
+bounds for data categorized into two groups. A ROC curve shows the
 relationship of probability of false alarm (x-axis) to probability of
-detection (y-axis) for a certain test.  Expressed in medical terms:
-the probability of a positive test, given no disease to the
-probability of a positive test, given disease.  The ROC curve may be
-used to determine an optimal cutoff point for the test.
+detection (y-axis) for a certain test. Expressed in medical terms: the
+probability of a positive test, given no disease to the probability of
+a positive test, given disease. The ROC curve may be used to determine
+an optimal cutoff point for the test.
 
 %description -l pl.UTF-8
 Ten program określa krzywą ROC i jej nieparametryczne przedziały
